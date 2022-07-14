@@ -14,7 +14,7 @@ export class CoinDetailComponent implements OnInit {
   coinData : any;
   coinId !: string;
   days : number = 30;
-  currency : string = "INR";
+  currency : string = "EUR";
 
   public lineChartData: ChartConfiguration['data'] = {
     datasets: [
